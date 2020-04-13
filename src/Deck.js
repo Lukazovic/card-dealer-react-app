@@ -43,10 +43,22 @@ export default class Deck extends Component {
     const cards = this.state.drawn.map(card => (
       <Card key={card.id} name={card.name} image={card.image} />
     ));
+    let diamondEmoji = (
+      <span className="Deck-emoji" role="img" aria-label="Diamond">
+        ♦️
+      </span>
+    );
     return (
-      <div>
-        <h1>Card Dealer</h1>
-        <button onClick={this.getCard}>Get Card!</button>
+      <div className="Deck">
+        <h1 className="Deck-title">
+          {diamondEmoji} Card Dealer {diamondEmoji}
+        </h1>
+        <h2 className="Deck-title subtitle">
+          {diamondEmoji} A simple app made with React {diamondEmoji}
+        </h2>
+        <button className="Deck-button" onClick={this.getCard}>
+          Get Card!
+        </button>
         <div className="Deck-cardArea">{cards}</div>
       </div>
     );
