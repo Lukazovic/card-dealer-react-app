@@ -14,12 +14,12 @@
 ## :wrench: Built With
 
 - [React](https://reactjs.org)
+- [Axios](https://www.npmjs.com/package/axios)
 
 ## 💻 About
 
-[Lights Out](https://en.wikipedia.org/wiki/Lights_Out_(game)) is a game that consists of a 5 by 5 grid of lights. When the game starts, a random number or a stored pattern of 
-these lights is switched on. Pressing any of the lights will toggle it and the adjacent lights. The goal of the puzzle 
-is to switch all the lights off, preferably in as few button presses as possible.
+This is a simple application built with ReactJS that can be used as a game. I'm learning how to deal with React and by doing this app
+I managed to understand how to deal with API Requests by using axios.
 
 ## :video_game: How to Play
 
