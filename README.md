@@ -1,4 +1,4 @@
-<h1 align="center">Card Dealer</h1>
+<h1 align="center">:diamonds: Card Dealer :diamonds:</h1>
 <h4 align="center">
   <img src="./public/game-preview.gif.gif" /><br>
 </h4>
@@ -6,7 +6,7 @@
 <p align="center">
   <a href="#wrench-built-with">Built With</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#video_game-how-to-play">How to play</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#game_die-how-to-play">How to play</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-contribute">How to Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#pencil-author">Author</a>
 </p>
@@ -21,7 +21,7 @@
 This is a simple application built with ReactJS that can be used as a game. I'm learning how to deal with React and by doing this app
 I managed to understand how to deal with API Requests by using axios.
 
-## :video_game: How to Play
+## :game_die: How to Play
 
 - Clone the project: `git clone https://github.com/Lukazovic/card-dealer-react-app.git`;
 - Go to the project folder: `cd card-dealer-react-app`;
